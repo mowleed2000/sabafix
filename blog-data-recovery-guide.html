@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complete Data Recovery Guide: Dead Laptops, SSDs & Drives | Sabafix</title>
+    <title>Complete Data Recovery Guide: Dead Laptops, SSDs & Drives | Sabaifix</title>
     <meta name="description" content="Recover critical photos, documents, and business files from dead laptops, unbootable drives, and water-damaged devices. Free initial diagnostic at 104 Bensham Lane, Thornton Heath.">
-    <link rel="preload" href="style.css?v=20261118_at1" as="style">
     <link rel="stylesheet" href="style.css?v=20261118_at1">
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="speculationrules">
+    {
+      "prerender": [
+        {
+          "source": "list",
+          "urls": [
+            "index.html",
+            "screen-repair.html",
+            "battery-replacement.html",
+            "charging-port.html",
+            "laptopscreen.html",
+            "devices.html",
+            "trade-in.html",
+            "call-out-services.html",
+            "catalogue.html",
+            "contact.html"
+          ]
+        }
+      ],
+      "prefetch": [
+        {
+          "source": "document",
+          "where": { "and": [{ "href_matches": "/*" }] },
+          "eagerness": "moderate"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <div class="top-bar">
@@ -22,7 +51,7 @@
     <nav class="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-main">Sabafix</span>
+                <span class="logo-main">Sabaifix</span>
                 <span class="logo-sub">104 BENSHAM LANE · THORNTON HEATH CR7</span>
             </a>
             <ul class="nav-links" id="navLinks">
@@ -148,7 +177,7 @@
         <div class="container footer-grid">
             <div class="footer-col">
                 <a href="index.html" class="logo">
-                    <span class="logo-main">Sabafix</span>
+                    <span class="logo-main">Sabaifix</span>
                     <span class="logo-sub">104 BENSHAM LANE · THORNTON HEATH CR7</span>
                 </a>
                 <p style="margin-top: 14px; font-size: 0.88rem; color: #94a3b8;">
@@ -160,5 +189,6 @@
     </footer>
     <script src="nav.js" defer></script>
     <script src="map.js" defer></script>
+    <script src="fast-nav.js" defer></script>
 </body>
 </html>

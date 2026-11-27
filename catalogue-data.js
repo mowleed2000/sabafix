@@ -1,4 +1,4 @@
-// Official Sabafix in-store product catalogue
+// Official Sabaifix in-store product catalogue
 const productsData = [
   {
     "name": "Dell Latitude 7320 Touch",

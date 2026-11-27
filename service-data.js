@@ -120,7 +120,7 @@ window.SERVICE_PAGES = {
         faqs: [
             { q: 'Can every phone be unlocked?', a: 'Most can. A few are still under network rules or have an IMEI block. We check first and only charge if we can proceed.' },
             { q: 'Do I need the original SIM?', a: 'Helpful, not always required. Bring the phone and any account emails if you have them.' },
-            { q: 'iPhone and Android?', a: 'Yes. Walk in to Sabafix, 104 Bensham Lane, Thornton Heath, W14 9NL.' },
+            { q: 'iPhone and Android?', a: 'Yes. Walk in to Sabaifix, 104 Bensham Lane, Thornton Heath, W14 9NL.' },
             { q: 'Will unlocking wipe the phone?', a: 'A network unlock does not delete your photos or apps.' }
         ]
     },

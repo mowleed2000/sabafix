@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Repair Knowledge Hub | Sabafix</title>
-    <meta name="description" content="Explore expert guides on console HDMI port repairs, professional data recovery, dead laptop diagnostics, MacBook battery health, and trade-in tips from Sabafix.">
-    <link rel="preload" href="style.css?v=20260819_mlr12" as="style">
+    <title>Tech Repair Knowledge Hub | Sabaifix</title>
+    <meta name="description" content="Explore expert guides on console HDMI port repairs, professional data recovery, dead laptop diagnostics, MacBook battery health, and trade-in tips from Sabaifix.">
     <link rel="stylesheet" href="style.css?v=20260819_mlr12">
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="speculationrules">
+    {
+      "prerender": [
+        {
+          "source": "list",
+          "urls": [
+            "index.html",
+            "screen-repair.html",
+            "battery-replacement.html",
+            "charging-port.html",
+            "laptopscreen.html",
+            "devices.html",
+            "trade-in.html",
+            "call-out-services.html",
+            "catalogue.html",
+            "contact.html"
+          ]
+        }
+      ],
+      "prefetch": [
+        {
+          "source": "document",
+          "where": { "and": [{ "href_matches": "/*" }] },
+          "eagerness": "moderate"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     
@@ -27,7 +56,7 @@
     <nav class="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-main">Sabafix</span>
+                <span class="logo-main">Sabaifix</span>
                 <span class="logo-sub">104 BENSHAM LANE · THORNTON HEATH CR7</span>
             </a>
             <ul class="nav-links" id="navLinks">
@@ -107,7 +136,7 @@
         <div class="container">
             <span class="section-tag" style="color:#2563eb;"><i class="fa-solid fa-book-open"></i> Tech Repair Knowledge Hub</span>
             <h2>9 Substantive Guides, Insights &amp; Tech Tips</h2>
-            <p>Written by certified repair technicians at Sabafix on 104 Bensham Lane, Thornton Heath.</p>
+            <p>Written by certified repair technicians at Sabaifix on 104 Bensham Lane, Thornton Heath.</p>
             <div class="services-grid" style="margin-top: 35px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
                 
     <div class="service-card" onclick="window.location.href='blog-console-hdmi-repair.html'" style="cursor: pointer;">
@@ -267,7 +296,7 @@
         <div class="container footer-grid">
             <div class="footer-col">
                 <a href="index.html" class="logo">
-                    <span class="logo-main">Sabafix</span>
+                    <span class="logo-main">Sabaifix</span>
                     <span class="logo-sub">104 BENSHAM LANE · THORNTON HEATH CR7</span>
                 </a>
                 <p style="margin-top: 14px; font-size: 0.88rem; color: #94a3b8; line-height: 1.6;">
@@ -307,5 +336,6 @@
     </footer>
     <script src="nav.js" defer></script>
     <script src="map.js" defer></script>
+    <script src="fast-nav.js" defer></script>
 </body>
 </html>

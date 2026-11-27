@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HP Laptop Repair in Thornton Heath | Sabafix</title>
+    <title>HP Laptop Repair in Thornton Heath | Sabaifix</title>
     <meta name="description" content="HP Pavilion, Envy, Spectre and EliteBook repairs at 104 Bensham Lane, Thornton Heath. Call 07466 662667.">
-    <link rel="preload" href="style.css?v=20260819_mlr12" as="style">
     <link rel="stylesheet" href="style.css?v=20260819_mlr12">
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="speculationrules">
+    {
+      "prerender": [
+        {
+          "source": "list",
+          "urls": [
+            "index.html",
+            "screen-repair.html",
+            "battery-replacement.html",
+            "charging-port.html",
+            "laptopscreen.html",
+            "devices.html",
+            "trade-in.html",
+            "call-out-services.html",
+            "catalogue.html",
+            "contact.html"
+          ]
+        }
+      ],
+      "prefetch": [
+        {
+          "source": "document",
+          "where": { "and": [{ "href_matches": "/*" }] },
+          "eagerness": "moderate"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <div class="top-bar">
@@ -21,7 +50,7 @@
     <nav class="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-main">Sabafix</span>
+                <span class="logo-main">Sabaifix</span>
                 <span class="logo-sub">104 BENSHAM LANE · THORNTON HEATH CR7</span>
             </a>
             <ul class="nav-links" id="navLinks">
@@ -219,7 +248,7 @@
         <div class="container footer-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
             <div class="footer-col">
                 <a href="index.html" class="logo">
-                    <span class="logo-main" style="color: #ffffff; font-weight: 800; font-size: 1rem;">Sabafix</span><br>
+                    <span class="logo-main" style="color: #ffffff; font-weight: 800; font-size: 1rem;">Sabaifix</span><br>
                     <span class="logo-sub" style="color: #60a5fa; font-size: 0.75rem; letter-spacing: 0.1em;">104 BENSHAM LANE · THORNTON HEATH CR7</span>
                 </a>
                 <p style="margin-top: 14px; font-size: 0.88rem; color: #cbd5e1; line-height: 1.6;">
@@ -258,7 +287,7 @@
             </div>
         </div>
         <div style="text-align: center; margin-top: 36px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.05); color: #94a3b8; font-size: 0.82rem;">
-            <p>© 2026 Sabafix. All rights reserved.</p>
+            <p>© 2026 Sabaifix. All rights reserved.</p>
         </div>
     </footer>
     <a href="https://wa.me/447466662667" target="_blank" class="floating-whatsapp-btn" title="Chat on WhatsApp">
@@ -268,5 +297,6 @@
     <script src="map.js" defer></script>
     <script src="enquiry.js" defer></script>
     <script src="device-page.js" defer></script>
+    <script src="fast-nav.js" defer></script>
 </body>
 </html>

@@ -23,12 +23,12 @@
         html += '<p class="sl-note">Send the model and the fault. We will reply from the shop at 104 Bensham Lane, Thornton Heath, or you can walk in.</p>';
         html += '<div class="contact-mini-list" style="margin-top:18px;">';
         html += '<div><i class="fa-solid fa-location-dot" style="color:var(--primary);"></i> 104 Bensham Lane, Thornton Heath, London CR7 7ES</div>';
-        html += '<div><i class="fa-brands fa-whatsapp" style="color:#25d366;"></i> <a href="https://wa.me/447448885755" target="_blank" rel="noopener">07466 662667</a></div>';
+        html += '<div><i class="fa-brands fa-whatsapp" style="color:#25d366;"></i> <a href="https://wa.me/447466662667" target="_blank" rel="noopener">07466 662667</a></div>';
         html += '<div><i class="fa-solid fa-envelope" style="color:var(--primary);"></i> <a href="mailto:info@sabaifix.co.uk">info@sabaifix.co.uk</a></div>';
         html += '</div>';
         html += '<div class="sl-cta-row">';
         html += '<a class="btn btn-primary" href="tel:07466662667"><i class="fa-solid fa-phone"></i> Call the shop</a>';
-        html += '<a class="btn btn-whatsapp" href="https://wa.me/447448885755" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>';
+        html += '<a class="btn btn-whatsapp" href="https://wa.me/447466662667" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>';
         html += '</div></div>';
         html += '<form class="enquiry-form" onsubmit="handleEnquiry(event)">';
         html += '<input type="hidden" id="serviceType" value="' + esc(data.formTitle) + '">';

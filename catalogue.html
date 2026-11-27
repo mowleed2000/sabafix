@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product &amp; Tech Catalogue | Sabafix</title>
+    <title>Product &amp; Tech Catalogue | Sabaifix</title>
     <meta name="description" content="Browse live in-store stock — laptops, PC components, smartphones, adapters, cables, and tech accessories. Free diagnostics. Call 07466 662667.">
-    <link rel="preload" href="style.css?v=20261118_at1" as="style">
     <link rel="stylesheet" href="style.css?v=20261118_at1">
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="speculationrules">
+    {
+      "prerender": [
+        {
+          "source": "list",
+          "urls": [
+            "index.html",
+            "screen-repair.html",
+            "battery-replacement.html",
+            "charging-port.html",
+            "laptopscreen.html",
+            "devices.html",
+            "trade-in.html",
+            "call-out-services.html",
+            "catalogue.html",
+            "contact.html"
+          ]
+        }
+      ],
+      "prefetch": [
+        {
+          "source": "document",
+          "where": { "and": [{ "href_matches": "/*" }] },
+          "eagerness": "moderate"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
 
@@ -25,7 +54,7 @@
     <nav class="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-main">Sabafix</span>
+                <span class="logo-main">Sabaifix</span>
                 <span class="logo-sub">104 BENSHAM LANE · THORNTON HEATH CR7</span>
             </a>
             <ul class="nav-links" id="navLinks">
@@ -186,7 +215,7 @@
         <div class="container">
             <div class="footer-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; margin-bottom: 40px;">
                 <div class="footer-col">
-                    <h3 style="color: #ffffff; font-size: 1.05rem; font-weight: 800; margin-bottom: 16px;">Sabafix</h3>
+                    <h3 style="color: #ffffff; font-size: 1.05rem; font-weight: 800; margin-bottom: 16px;">Sabaifix</h3>
                     <p style="color: #94a3b8; font-size: 0.88rem; line-height: 1.6; margin-bottom: 16px;">Serving Thornton Heath with professional computer, laptop, console & phone repairs, 100% Free Diagnostics, and express fixes.</p>
                     <p style="color: #60a5fa; font-weight: 700; font-size: 0.9rem;"><i class="fa-solid fa-location-dot"></i> 104 Bensham Lane, Thornton Heath, London CR7 7ES</p>
                 </div>
@@ -220,7 +249,7 @@
                 </div>
             </div>
             <div style="text-align: center; border-top: 1px solid rgba(37, 99, 235, 0.15); padding-top: 20px; color: #64748b; font-size: 0.8rem;">
-                © 2026 Sabafix. All rights reserved.
+                © 2026 Sabaifix. All rights reserved.
             </div>
         </div>
     </footer>
@@ -232,5 +261,6 @@
     <script src="map.js" defer></script>
     <script src="catalogue-data.js?v=20260813h" defer></script>
     <script src="catalogue.js?v=20260813h" defer></script>
+    <script src="fast-nav.js" defer></script>
 </body>
 </html>

@@ -9,7 +9,7 @@
 
         var iframe = document.createElement('iframe');
         iframe.src = src;
-        iframe.title = 'Sabafix on Google Maps';
+        iframe.title = 'Sabaifix on Google Maps';
         iframe.width = '100%';
         iframe.height = '100%';
         iframe.setAttribute('allowfullscreen', '');
